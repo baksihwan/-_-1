@@ -6,10 +6,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HelloController {
-    @GetMapping("/hello")
+    @GetMapping("/sbb")
     @ResponseBody
-    public String hello(){
+    public String hello() {
         return "스프링부트에 오신 것을 환영합니다.";
     }
+    }
 
-}
+
+
