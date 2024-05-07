@@ -9,7 +9,7 @@ public class HelloController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello(){
-        return "Hello World";
+        return "스프링부트에 오신 것을 환영합니다.";
     }
 
 }
